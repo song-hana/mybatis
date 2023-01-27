@@ -4,5 +4,6 @@
 <mapper namespace='ch02.ex05.Map'>
 	<delete id='deleteUser'>
 		delete users
+		where user_id >= #{userId}
 	</delete>
 </mapper>

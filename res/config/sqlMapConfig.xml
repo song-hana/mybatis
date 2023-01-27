@@ -8,6 +8,7 @@
 	
 	<typeAliases>
 		<typeAlias type='ch02.domain.User' alias='user'/>
+		<package name='ch03.domain'/>
 	</typeAliases>
 	
 	<environments default='development'>
@@ -27,5 +28,7 @@
 		<mapper resource='ch02/ex02/sqlMap.xml'/>
 		<mapper resource='ch02/ex03/sqlMap.xml'/>
 		<mapper resource='ch02/ex04/sqlMap.xml'/>
+		<mapper resource='ch02/ex05/sqlMap.xml'/>
+		<mapper resource='ch03/ex01/sqlMap.xml'/>
 	</mappers>
 </configuration>
