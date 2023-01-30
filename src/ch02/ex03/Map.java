@@ -11,7 +11,7 @@ public interface Map {
 	
 	int insertUser2(@Param("userId") int userId,
 			@Param("userName") String userName,
-			@Param("regDate") LocalDate regDage);
+			@Param("regDate") LocalDate regDate);
 	
 	int insertUser3(int userId, String userName, LocalDate regDate);
 }
